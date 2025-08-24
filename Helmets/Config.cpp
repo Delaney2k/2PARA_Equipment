@@ -1,11 +1,11 @@
 class CfgPatches {
-    class 2PARA_Equipment {
+    class 2para_equipment {
         units[] = {};
         weapons[] = {};
         requiredVersion = 1;
         requiredAddons[] = 
         {			
-            "A3_Data_F",
+            "A3_data_F",
 			"Extended_EventHandlers"
         };
     };
@@ -36,26 +36,26 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh)";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         
         };
         ace_hearing_protection = 1;
         ace_hearing_lowerVolume = 0.25;
         class ItemInfo: HeadgearItem {
             mass = 31;
-            uniformModel = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+            uniformModel = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
             hiddenSelections[] = {
                "_RANK","_TRFHL","_TRFHR"
                
             };
-            modelSides[] = {
+            modelsides[] = {
                 3,
                 2,
                 1,
@@ -74,14 +74,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh) LCpl";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\LCpl_CO.paa","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "2para_equipment\helmets\data\LCpl_CO.paa","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         
         };
     };
@@ -89,14 +89,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh) Cpl";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\Cpl_CO.paa","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "2para_equipment\helmets\data\Cpl_CO.paa","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         
         };
     };
@@ -104,28 +104,28 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh) Sgt";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\Sgt_CO.paa","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "2para_equipment\helmets\data\Sgt_CO.paa","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         };
     };
      class 2PARA_Cobra_SSgt: 2PARA_Cobra {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh) SSgt";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\SSgt_CO.paa","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "2para_equipment\helmets\data\SSgt_CO.paa","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         
         };
     };
@@ -133,14 +133,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh) 2Lt";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\2Lt_CO.paa","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "2para_equipment\helmets\data\2Lt_CO.paa","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         
         };
     };
@@ -148,14 +148,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh) Lt";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\Lt_CO.paa","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "2para_equipment\helmets\data\Lt_CO.paa","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         
         };
     };
@@ -163,14 +163,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh) Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "","2PARA_Equipment\Helmets\Data\16AA_DARK_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "","2para_equipment\helmets\data\16AA_DARK_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         
         };
     };
@@ -178,14 +178,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh) LCpl Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\LCpl_CO.paa","2PARA_Equipment\Helmets\Data\16AA_DARK_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "2para_equipment\helmets\data\LCpl_CO.paa","2para_equipment\helmets\data\16AA_DARK_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         
         };
     };
@@ -193,14 +193,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh) Cpl Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\Cpl_CO.paa","2PARA_Equipment\Helmets\Data\16AA_DARK_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "2para_equipment\helmets\data\Cpl_CO.paa","2para_equipment\helmets\data\16AA_DARK_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         
         };
     };
@@ -208,28 +208,28 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1; 
         displayName = "[2PARA] Cobra(Mesh) Sgt Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\Sgt_CO.paa","2PARA_Equipment\Helmets\Data\16AA_DARK_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "2para_equipment\helmets\data\Sgt_CO.paa","2para_equipment\helmets\data\16AA_DARK_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         };
     };
      class 2PARA_Cobra_SSgt_D: 2PARA_Cobra {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh) SSgt Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\SSgt_CO.paa","2PARA_Equipment\Helmets\Data\16AA_DARK_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "2para_equipment\helmets\data\SSgt_CO.paa","2para_equipment\helmets\data\16AA_DARK_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         
         };
     };
@@ -237,14 +237,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh) 2Lt Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\2Lt_CO.paa","2PARA_Equipment\Helmets\Data\16AA_Dark_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "2para_equipment\helmets\data\2Lt_CO.paa","2para_equipment\helmets\data\16AA_Dark_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         
         };
     };
@@ -252,14 +252,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] Cobra(Mesh) Lt Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\Lt_CO.paa","2PARA_Equipment\Helmets\Data\16AA_Dark_CO.paa","2PARA_Equipment\Helmets\Data\2PARA_CO.paa"
+            "2para_equipment\helmets\data\Lt_CO.paa","2para_equipment\helmets\data\16AA_Dark_CO.paa","2para_equipment\helmets\data\2PARA_CO.paa"
         
         };
     };
@@ -267,28 +267,28 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA/RAMC] Cobra(Mesh)";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-           "","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\RAMC_CO.paa"
+           "","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\RAMC_CO.paa"
         
         };
     };class RAMC_Cobra_D: 2PARA_Cobra {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA/RAMC] Cobra(Mesh) Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-           "","2PARA_Equipment\Helmets\Data\16AA_DARK_CO.paa","2PARA_Equipment\Helmets\Data\RAMC_CO.paa"
+           "","2para_equipment\helmets\data\16AA_DARK_CO.paa","2para_equipment\helmets\data\RAMC_CO.paa"
         
         };
     };
@@ -296,14 +296,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA/RAMC] Cobra(Mesh) LCpl";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-          "2PARA_Equipment\Helmets\Data\LCpl_CO.paa","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\RAMC_CO.paa"
+          "2para_equipment\helmets\data\LCpl_CO.paa","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\RAMC_CO.paa"
         
         };
     };
@@ -311,14 +311,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1; 
         displayName = "[2PARA/RAMC] Cobra(Mesh) LCpl Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-          "2PARA_Equipment\Helmets\Data\LCpl_CO.paa","2PARA_Equipment\Helmets\Data\16AA_DARK_CO.paa","2PARA_Equipment\Helmets\Data\RAMC_CO.paa"
+          "2para_equipment\helmets\data\LCpl_CO.paa","2para_equipment\helmets\data\16AA_DARK_CO.paa","2para_equipment\helmets\data\RAMC_CO.paa"
         
         };
     };
@@ -326,14 +326,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA/RAMC] Cobra(Mesh) Cpl";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-           "2PARA_Equipment\Helmets\Data\Cpl_CO.paa","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\RAMC_CO.paa"
+           "2para_equipment\helmets\data\Cpl_CO.paa","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\RAMC_CO.paa"
         
         };
     };
@@ -341,14 +341,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA/RAMC] Cobra(Mesh) Cpl Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-           "2PARA_Equipment\Helmets\Data\Cpl_CO.paa","2PARA_Equipment\Helmets\Data\16AA_DARK_CO.paa","2PARA_Equipment\Helmets\Data\RAMC_CO.paa"
+           "2para_equipment\helmets\data\Cpl_CO.paa","2para_equipment\helmets\data\16AA_DARK_CO.paa","2para_equipment\helmets\data\RAMC_CO.paa"
         
         };
     };
@@ -356,42 +356,42 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA/RAMC] Cobra(Mesh) Sgt";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\Sgt_CO.paa","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\RAMC_CO.paa"
+            "2para_equipment\helmets\data\Sgt_CO.paa","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\RAMC_CO.paa"
         };
     };
         class RAMC_Cobra_Sgt_D: 2PARA_Cobra {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA/RAMC] Cobra(Mesh) Sgt Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-            "2PARA_Equipment\Helmets\Data\Sgt_CO.paa","2PARA_Equipment\Helmets\Data\16AA_DARK_CO.paa","2PARA_Equipment\Helmets\Data\RAMC_CO.paa"
+            "2para_equipment\helmets\data\Sgt_CO.paa","2para_equipment\helmets\data\16AA_DARK_CO.paa","2para_equipment\helmets\data\RAMC_CO.paa"
         };
     };
      class SIG_Cobra: 2PARA_Cobra {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA/SIGS] Cobra(Mesh)";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-           "","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\SIGS_CO.paa"
+           "","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\SIGS_CO.paa"
         
         };
     };
@@ -399,14 +399,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA/SIGS] Cobra(Mesh) Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-           "","2PARA_Equipment\Helmets\Data\16AA_DARK_CO.paa","2PARA_Equipment\Helmets\Data\SIGS_CO.paa"
+           "","2para_equipment\helmets\data\16AA_DARK_CO.paa","2para_equipment\helmets\data\SIGS_CO.paa"
         
         };
     };
@@ -414,14 +414,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA/SIGS] Cobra(Mesh) LCpl";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-          "2PARA_Equipment\Helmets\Data\LCpl_CO.paa","2PARA_Equipment\Helmets\Data\16AA_CO.paa","2PARA_Equipment\Helmets\Data\SIGS_CO.paa"
+          "2para_equipment\helmets\data\LCpl_CO.paa","2para_equipment\helmets\data\16AA_CO.paa","2para_equipment\helmets\data\SIGS_CO.paa"
         
         };
     };
@@ -429,14 +429,14 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA/SIGS] Cobra(Mesh) LCpl Dark";
-        Picture = "\2PARA_Equipment\ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Helmets\Models\2PARA_Cobra_Mesh.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\helmets\models\2PARA_Cobra_Mesh.p3d";
         hiddenSelections[] = {
            "_RANK","_TRFHL","_TRFHR"
           
         };
         hiddenSelectionsTextures[] = {
-          "2PARA_Equipment\Helmets\Data\LCpl_CO.paa","2PARA_Equipment\Helmets\Data\16AA_DARK_CO.paa","2PARA_Equipment\Helmets\Data\SIGS_CO.paa"
+          "2para_equipment\helmets\data\LCpl_CO.paa","2para_equipment\helmets\data\16AA_DARK_CO.paa","2para_equipment\helmets\data\SIGS_CO.paa"
         
         };
     };

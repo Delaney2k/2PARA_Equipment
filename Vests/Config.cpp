@@ -1,5 +1,5 @@
 class CfgPatches {
-    class 2PARA_Equipment {
+    class 2para_equipment {
         units[] = {};
         weapons[] = {};
         requiredVersion = 1;
@@ -36,8 +36,8 @@ class CfgWeapons {
         scope = 0;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] STV(Base)";
-        Picture = "\2PARA_Equipment\Ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Vests\Models\2PARA_Virtus.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\vests\models\2PARA_Virtus.p3d";
         hiddenSelections[] = {
            "",
           
@@ -48,14 +48,14 @@ class CfgWeapons {
         };
         class ItemInfo: VestItem {
             mass = 165;
-            uniformModel = "2PARA_Equipment\Vests\Models\2PARA_Virtus.p3d";
+            uniformModel = "2para_equipment\vests\models\2PARA_Virtus.p3d";
             containerClass = "Supply200";
             armor = 1;
             hiddenSelections[] = {
                "",
                
             };
-            modelSides[] = {
+            modelsides[] = {
                 3,
                 2,
                 1,
@@ -85,8 +85,8 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] STV(LMG/MMG)";
-        Picture = "\2PARA_Equipment\Ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Vests\Models\2PARA_Virtus_GPMG.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\vests\models\2PARA_Virtus_GPMG.p3d";
         hiddenSelections[] = {
            "",
           
@@ -97,14 +97,14 @@ class CfgWeapons {
         };
         class ItemInfo: VestItem {
             mass = 165;
-            uniformModel = "2PARA_Equipment\Vests\Models\2PARA_Virtus_GPMG.p3d";
+            uniformModel = "2para_equipment\vests\models\2PARA_Virtus_GPMG.p3d";
             containerClass = "Supply350";
             armor = 1;
             hiddenSelections[] = {
                "",
                
             };
-            modelSides[] = {
+            modelsides[] = {
                 3,
                 2,
                 1,
@@ -134,8 +134,8 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] STV(Rifleman A)";
-        Picture = "\2PARA_Equipment\Ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Vests\Models\2PARA_Virtus_TRP.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\vests\models\2PARA_Virtus_TRP.p3d";
         hiddenSelections[] = {
            "",
           
@@ -146,14 +146,14 @@ class CfgWeapons {
         };
         class ItemInfo: VestItem {
             mass = 165;
-            uniformModel = "2PARA_Equipment\Vests\Models\2PARA_Virtus_TRP.p3d";
+            uniformModel = "2para_equipment\vests\models\2PARA_Virtus_TRP.p3d";
             containerClass = "Supply200";
             armor = 1;
             hiddenSelections[] = {
                "",
                
             };
-            modelSides[] = {
+            modelsides[] = {
                 3,
                 2,
                 1,
@@ -183,8 +183,8 @@ class CfgWeapons {
         scope = 2;
         weaponPoolAvailable = 1;
         displayName = "[2PARA] STV(Rifleman W)";
-        Picture = "\2PARA_Equipment\Ui\2PARA_CA.paa";
-        model = "2PARA_Equipment\Vests\Models\2PARA_Virtus_TRP_W.p3d";
+        Picture = "\2para_equipment\ui\2PARA_CA.paa";
+        model = "2para_equipment\vests\models\2PARA_Virtus_TRP_W.p3d";
         hiddenSelections[] = {
            "",
           
@@ -195,14 +195,14 @@ class CfgWeapons {
         };
         class ItemInfo: VestItem {
             mass = 165;
-            uniformModel = "2PARA_Equipment\Vests\Models\2PARA_Virtus_TRP_W.p3d";
+            uniformModel = "2para_equipment\vests\models\2PARA_Virtus_TRP_W.p3d";
             containerClass = "Supply200";
             armor = 1;
             hiddenSelections[] = {
                "",
                
             };
-            modelSides[] = {
+            modelsides[] = {
                 3,
                 2,
                 1,
