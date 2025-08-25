@@ -1,16 +1,16 @@
 class CfgPatches {
-    class 2PARA_G4_uniforms {
+    class 2PARA_G4_Uniforms {
         units[] = {};
         weapons[] = {};
         requiredVersion = 1;
         requiredAddons[] = 
         {			
-            "A3_data_F",
+            "A3_Data_F",
 			"Extended_EventHandlers"
         };
     };
 };
-class uniformslotInfo {
+class UniformSlotInfo {
     slotType = 0;
     linkProxy = "-";
 };
@@ -20,65 +20,65 @@ class CfgVehicles {
     class Civilian_F;
     class SCOTT_ARMY_G4_soldier: SoldierWB {
         scope = 1;
-        picture = "\2para_equipment\ui\2PARA_CA.paa";
-        model = "\2para_equipment\uniforms\model\G4.p3d";
+        picture = "\2PARA_Equipment\Ui\2PARA_CA.paa";
+        model = "\2PARA_Equipment\Uniforms\Models\G4.p3d";
         uniformClass = "SCOTT_ARMY_G4_soldier";
         class Wounds {
             tex[] = {};
             mat[] = {
-                "2para_equipment\uniforms\data\_G4RS.rvmat",
-                "2para_equipment\uniforms\data\_G4RS.rvmat",
-                "2para_equipment\uniforms\data\_G4RS.rvmat",
-                "2para_equipment\uniforms\data\_G4P.rvmat",
-                "2para_equipment\uniforms\data\_G4P.rvmat",
-                "2para_equipment\uniforms\data\_G4P.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_bald_muscular.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_bald_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_bald_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_black_bald_muscular.rvmat",
-                "A3\Characters_F\Heads\data\hl_black_bald_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_black_bald_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_hairy_muscular.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_hairy_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_hairy_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_old.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_old_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_old_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_asian_bald_muscular.rvmat",
-                "A3\Characters_F\Heads\data\hl_asian_bald_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_asian_bald_muscular_injury.rvmat"
+                "2PARA_Equipment\Uniforms\Data\_G4RS.rvmat",
+                "2PARA_Equipment\Uniforms\Data\_G4RS.rvmat",
+                "2PARA_Equipment\Uniforms\Data\_G4RS.rvmat",
+                "2PARA_Equipment\Uniforms\Data\_G4P.rvmat",
+                "2PARA_Equipment\Uniforms\Data\_G4P.rvmat",
+                "2PARA_Equipment\Uniforms\Data\_G4P.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+                "A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+                "A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
             };
         };
     };
     class SCOTT_ARMY_G4RS_soldier: SoldierWB {
         scope = 1;
-        picture = "\2para_equipment\ui\2PARA_CA.paa";
-        model = "\2para_equipment\uniforms\model\G4RS.p3d";
+        picture = "\2PARA_Equipment\Ui\2PARA_CA.paa";
+        model = "\2PARA_Equipment\Uniforms\Models\G4RS.p3d";
         uniformClass = "SCOTT_ARMY_G4RS_soldier";
         class Wounds {
             tex[] = {};
             mat[] = {
-                "2para_equipment\uniforms\data\_G4RS.rvmat",
-                "2para_equipment\uniforms\data\_G4RS.rvmat",
-                "2para_equipment\uniforms\data\_G4RS.rvmat",
-                "2para_equipment\uniforms\data\_G4P.rvmat",
-                "2para_equipment\uniforms\data\_G4P.rvmat",
-                "2para_equipment\uniforms\data\_G4P.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_bald_muscular.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_bald_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_bald_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_black_bald_muscular.rvmat",
-                "A3\Characters_F\Heads\data\hl_black_bald_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_black_bald_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_hairy_muscular.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_hairy_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_hairy_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_old.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_old_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_white_old_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_asian_bald_muscular.rvmat",
-                "A3\Characters_F\Heads\data\hl_asian_bald_muscular_injury.rvmat",
-                "A3\Characters_F\Heads\data\hl_asian_bald_muscular_injury.rvmat"
+                "2PARA_Equipment\Uniforms\Data\_G4RS.rvmat",
+                "2PARA_Equipment\Uniforms\Data\_G4RS.rvmat",
+                "2PARA_Equipment\Uniforms\Data\_G4RS.rvmat",
+                "2PARA_Equipment\Uniforms\Data\_G4P.rvmat",
+                "2PARA_Equipment\Uniforms\Data\_G4P.rvmat",
+                "2PARA_Equipment\Uniforms\Data\_G4P.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+                "A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+                "A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
             };
         };
     };
@@ -102,8 +102,8 @@ class CfgWeapons {
     class U_SCOTT_ARMY_G4_uniform: Uniform_Base {
         scope = 0;
         displayName = "[2PARA] Crye G4 Uniform";
-        picture = "\2para_equipment\ui\2PARA_CA.paa";
-        model = "\2para_equipment\uniforms\model\G4.p3d";
+        picture = "\2PARA_Equipment\Ui\2PARA_CA.paa";
+        model = "\2PARA_Equipment\Uniforms\Models\G4.p3d";
         hiddenSelections[] = {
             ""
         };
@@ -122,8 +122,8 @@ class CfgWeapons {
     class U_SCOTT_ARMY_G4RS_uniform: Uniform_Base {
         scope = 2;
         displayName = "[2PARA] Crye G4 Uniform(RS)";
-        picture = "\2para_equipment\ui\2PARA_CA.paa";
-        model = "\2para_equipment\uniforms\model\G4RS.p3d";
+        picture = "\2PARA_Equipment\Ui\2PARA_CA.paa";
+        model = "\2PARA_Equipment\Uniforms\Models\G4RS.p3d";
         hiddenSelections[] = {
             "_TRFLH","_TRFRH","_AB"
         };
@@ -142,25 +142,25 @@ class CfgWeapons {
      class U_SCOTT_ARMY_G4RS_RAMC_uniform: U_SCOTT_ARMY_G4RS_uniform {
         scope = 0;
         displayName = "[2PARA/RAMC] Crye G4 Uniform(RS)";
-        picture = "\2para_equipment\ui\2PARA_CA.paa";
-        model = "\2para_equipment\uniforms\model\G4RS.p3d";
+        picture = "\2PARA_Equipment\Ui\2PARA_CA.paa";
+        model = "\2PARA_Equipment\Uniforms\Models\G4RS.p3d";
         hiddenSelections[] = {
             "_TRFLH","_TRFRH","_AB"
         };
         hiddenSelectionsTextures[] = {
-            "","\2para_equipment\Helmets\data\RAMC_CO.paa",""
+            "","\2PARA_Equipment\Helmets\Data\RAMC_CO.paa",""
         };
      };
       class U_SCOTT_ARMY_G4RS_SIGS_uniform: U_SCOTT_ARMY_G4RS_uniform {
         scope = 0;
         displayName = "[2PARA/SIGS] Crye G4 Uniform(RS)";
-        picture = "\2para_equipment\ui\2PARA_CA.paa";
-        model = "\2para_equipment\uniforms\model\G4RS.p3d";
+        picture = "\2PARA_Equipment\Ui\2PARA_CA.paa";
+        model = "\2PARA_Equipment\Uniforms\Models\G4RS.p3d";
         hiddenSelections[] = {
             "_TRFLH","_TRFRH","_AB"
         };
         hiddenSelectionsTextures[] = {
-            "","\2para_equipment\Helmets\data\SIGS_CO.paa",""
+            "","\2PARA_Equipment\Helmets\Data\SIGS_CO.paa",""
         };
      };
 };
