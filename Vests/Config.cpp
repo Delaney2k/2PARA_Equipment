@@ -1,5 +1,5 @@
 class CfgPatches {
-    class 2PARA_Equipment {
+    class 2PARA_Equipment_Vests {
         units[] = {};
         weapons[] = {};
         requiredVersion = 1;

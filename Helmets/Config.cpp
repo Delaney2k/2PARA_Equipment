@@ -1,6 +1,6 @@
 #include "BIS_AddonInfo.hpp"
 class CfgPatches {
-    class 2PARA_Equipment {
+    class 2PARA_Equipment_Helmets {
         units[] = {};
         weapons[] = {};
         requiredVersion = 1;
